@@ -1,0 +1,11 @@
+inventory.csv
+# Security: Do not upload secrets
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Backup files (We don't want to upload local backups)
+*.txt
+*.log
